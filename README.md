@@ -4,6 +4,8 @@ An efficient weekly timetable for those looking to balance their work life with 
 
 ![Timetable Preview](./timetable-preview.png)
 
+example url : https://veridyia.github.io/timetable/
+
 ## Project Overview
 
 This project is a simple and visually appealing timetable that helps users balance their work and personal life while pursuing new interests. The timetable is designed in HTML and CSS, providing an easy-to-read and playful layout.
