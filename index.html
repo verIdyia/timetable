@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Efficient Timetable</title>
+<style>
+    body {
+        font-family: 'Comic Sans MS', sans-serif;
+        line-height: 1.6;
+        background-color: #f8e1e1;
+        color: #5a5a5a;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    th, td {
+        padding: 15px;
+        border: 1px solid #e0bcbc;
+        text-align: left;
+    }
+    th {
+        background-color: #ffcce6;
+        color: #5a5a5a;
+        font-size: 20px;
+    }
+    tr:nth-child(even) {
+        background-color: #fde8e8;
+    }
+    h1 {
+        font-size: 36px;
+        color: #ff80b3;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 20px 0;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Efficient Timetable</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Monday to Friday -->
+            <tr>
+                <td rowspan="5">Monday to Friday</td>
+                <td>6:00am - 7:00am</td>
+                <td>Morning routine (getting ready, breakfast)</td>
+            </tr>
+            <tr>
+                <td>7:00am - 8:00am</td>
+                <td>Fiction writing</td>
+            </tr>
+            <tr>
+                <td>8:00am - 7:00pm</td>
+                <td>Work (including a one-hour lunch break)</td>
+            </tr>
+            <tr>
+                <td>7:00pm - 8:00pm</td>
+                <td>Dinner</td>
+            </tr>
+            <tr>
+                <td>8:00pm - 9:30pm</td>
+                <td>3D modelling</td>
+            </tr>
+            
+            <!-- Saturday -->
+            <tr>
+                <td rowspan="7">Saturday</td>
+                <td>8:00am - 9:00am</td>
+                <td>Morning routine (getting ready, breakfast)</td>
+            </tr>
+            <tr>
+                <td>9:00am - 12:00pm</td>
+                <td>Programming</td>
+            </tr>
+            <tr>
+                <td>12:00pm - 1:00pm</td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <td>1:00pm - 4:00pm</td>
+                <td>3D modelling</td>
+            </tr>
+            <tr>
+                <td>4:00pm - 7:00pm</td>
+                <td>Fiction writing</td>
+            </tr>
+            <tr>
+                <td>7:00pm - 8:00pm</td>
+                <td>Dinner</td>
+            </tr>
+            <tr>
+                <td>8:00pm - 10:00pm</td>
+                <td>Free time (relaxation, hobbies, socializing)</td>
+            </tr>
+
+            <!-- Sunday -->
+            <tr>
+                <td rowspan="7">Sunday</td>
+                <td>8:00am - 9:00am</td>
+                <td>Morning routine (getting ready, breakfast)</td>
+            </tr>
+            <tr>
+                <td>9:00am - 12:00pm</td>
+                <td>Programming</td>
+            </tr>
+            <tr>
+                <td>12:00pm - 1:00pm</td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <td>1:00pm - 4:00pm</td>
+                <td>3D modelling</td>
+            </tr>
+            <tr>
+                <td>4:00pm - 7:00pm</td>
+                <td>Fiction writing</td>
+            </tr>
+            <tr>
+                <td>7:00pm - 8:00pm</td>
+                <td>Dinner</td>
+            </tr>
+            <tr>
+                <td>8:00pm - 10:00pm</td>
+                <td>Free time (relaxation, hobbies, socializing)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
